@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <style type="text/css">
+    <body>
+      {
+        padding-bottom: 40px;
+        color: #5a5a5a;
+      }
+      .carousel {
+        height: 200px;
+        margin-bottom: 60px;
+        margin-left: 150px;
+        margin-right: 150px;
+      }
+      /* Since positioning the image, we need to help out the caption */
+      .carousel-caption {
+        z-index: 10;
+      }
+
+      /* Declare heights because of positioning of img element */
+      .carousel .item {
+        height: 200px;
+        background-color: #777;
+        margin-left: 150px;
+        margin-right: 150px;
+      }
+      .carousel-inner > .item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 200px;
+      }
+      .nav-sidebar {
+          margin-right: 10px; /* 20px padding + 1px border */
+          margin-bottom: 20px;
+          margin-left: 10px;
+        .nav-sidebar > li > a {
+          padding-right: 20px;
+          padding-left: 20px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #428bca;
+}
+    </body>
+  </style>
+    <title>Admin 2</title>
+</head>
+
+ <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Quản Lý User</a>
+             </div>
+             <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="Admin 2.html">Thông Tin User</a></li>
+                <li><a href="Admin Message 1.html">Tin Nhắn</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+           </div>
+   </nav>
+
+<div class="col-md-9">
+              <div class="panel panel-default ">
+                <div class="panel-heading">
+                  <h3 class="panel-title"><strong>Information</strong></h3>
+                </div>
+                <div class="panel-body"></div>
+                    <div class="well">
+                      
+                        <div class="panel panel-default">
+                          <div class="panel-heading">
+                           <div class="container">
+        
+         <form class="form-forgotpassworld">
+        <ul class="col-md-5">
+          <li >
+           <div class="form-group">
+          <label for="InputUsername">User name</label>
+          <input type="text" class="form-control" id="InputUsername" placeholder="Trần Công Minh">
+          </div>
+          <div class="form-group">
+          <label for="exampleInputEmail1">Date of Birth</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="21-11-1996">
+          </div>
+            </li>
+        </ul>
+         <ul class="col-md-4"> 
+            <li >
+               <img class="col-md-offset-4" src="Image/hinh.jpg" alt="..." style="width:228px;height:150px;">
+            </li>
+          </ul>
+       
+      <ul class="col-md-5">
+         <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Congminhk14@gmail.com">
+         </div>
+         <div class="form-group">
+          <label for="InputMobie">Mobie</label>
+          <input type="Mobie" class="form-control" id="InputMobie" placeholder="0120825552">
+         </div>
+         <div class="form-group">
+          <label for="exampleInputEmail1">Last Time Log in</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="19:00 20-09-16">
+         </div>
+
+
+
+
+      <a class="btn btn-primary btn-lg" href="Admin Message 1.html" type="submit">Send Message</a>
+
+
+      <button type="button" id="cc" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Block Account
+      </button>
+      <div class="container">
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Block Accout</h4>
+        </div>
+        <div class="modal-body">
+          <p>Bạn có chắc muốn block tài khoản này?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+      </ul>
+        <div>
+        <!-- Button trigger modal -->
+    
+
+                            
+                          </div>
+                    </div>
+                </div>
+
+              
+
+  </div>
+   
+
+
+</html>
